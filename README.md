@@ -1,2 +1,2 @@
-# Rileyo-Divergence-Vic2-SP
-Single-Player Version of my Divergence of Darkness mod
+# Rileyo-Divergence-Vic2-MP
+My multiplayer version of Divergence of darkness mod for Victoria 2, combining elements hopefully from Zombie's DoD mod, Buddahlol's DoD mod and GoC Dod Mod

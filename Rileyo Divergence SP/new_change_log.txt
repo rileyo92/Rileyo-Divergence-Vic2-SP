@@ -1,5 +1,21 @@
 #
+# 1.0S
 #
+# Intital Release stemming from the 1.2 MP version
 #
+# 1.01S (WIP)
 #
+# Updating to be comparable to the 1.4 MP version
 #
+# 1.02S (Planned)
+#
+# Added decisions for following countries: Kita Kaigan, Rohhnst, Metis, Inuit, Iroquois, Cherokee, Pubelo, Sioux
+#
+# 1.03S (Planned)
+#
+# Added decisions for following countries: Lusitania, Portugal, Mexico, Mayans, Aztecs, San Salvador, Granada, Anadoya, Guyana, Kuba, Jamaica, Haiti, Athesia
+# Gran Colombia split into Lusitania, Mexico, San Salvador and Granada at start
+#
+# 1.04S (Planned)
+#
+# Added decisions for following countries: Guarani, Mapuche, Tupi

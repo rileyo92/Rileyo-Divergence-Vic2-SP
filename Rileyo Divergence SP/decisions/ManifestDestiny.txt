@@ -66,15 +66,17 @@ political_decisions = {
 
 	dng_pacific_destiny = {
 		potential = {
-			tag = DNG
+			OR = {
+				tag = DNG
+				tag = KKN
+			}
 			has_country_flag = dng_manifest_destiny
 			NOT = { has_country_flag = dng_pacific }
 		}
-
 		allow = {
 			revolution_n_counterrevolution = 1
+			rank = 16
 		}
-
 		effect = {
 			set_country_flag = dng_pacific
 			add_accepted_culture = polynesian
@@ -136,41 +138,7 @@ political_decisions = {
 				2596 = { secede_province = THIS }
 			}
 	}
-
 	}
-
-	Takikawa = {
-	picture = Great_North
-
-	potential = {
-	OR = {
-		tag = KKN
-		AND = {
-			is_greater_power = yes
-			tag = JAP
-		}
-	}
-	NOT = { 9 = { empty = yes } 2629 = { empty = yes } }
-	2598 = { empty = yes }
-	8 = { empty = yes }
-	10 = { empty = yes}
-	owns = 3
-	}
-
-	allow = {
-	nationalism_n_imperialism = 1
-	}
-
-	effect = {
-	random_owned = {
-				8 = { secede_province = THIS }
-				10 = { secede_province = THIS }
-				2598 = { secede_province = THIS }
-			}
-		}
-
-	}
-
 	Takikawa_2 = {
 	picture = Great_North
 

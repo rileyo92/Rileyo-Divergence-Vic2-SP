@@ -26,12 +26,16 @@ political_decisions = {
       }
     }
   }
+
   defeating_qingqiu = {
     potential = {
       tag = KKN
       NOT = { has_country_flag = kita_qingqiu }
     }
     allow = {
+      owns = 14
+      owns = 20
+      owns = 78
     }
     effect = {
       DNG = { all_core = { add_core = KKN } }
@@ -39,20 +43,40 @@ political_decisions = {
       set_country_flag = kita_qingqiu
     }
   }
+
   return_to_japan = {
     potential = {
       tag = KKN
       NOT = { has_country_flag = man_in_low_castle }
     }
     allow = {
+      owns = 1649
+      owns = 1675
+      owns = 1657
+      owns = 1638
+      owns = 1661
+      JAP = {
+        OR = {
+          vassal_of = THIS
+          in_sphere = THIS
+          exists = NO
+        }
+      }
     }
     effect = {
-      JAP = { all_core = { add_core = KKN } }
       add_accepted_culture = japanese
       add_accepted_culture = ainu
       set_country_flag = man_in_low_castle
+      any_country = {
+        limit = {
+          tag = JAP
+        }
+        annex_to = THIS
+      }
+      change_tag = JAP
     }
   }
+  
   kita_integrate_northern_natives = {
     potential = {
       tag = KKN

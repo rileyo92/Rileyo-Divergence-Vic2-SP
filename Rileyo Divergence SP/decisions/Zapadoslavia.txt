@@ -9,6 +9,7 @@ political_decisions = {
       NOT = { has_country_flag = treaty_hadiach }
       NOT = { has_country_flag = jagiellonian }
       NOT = { has_country_flag = lesser_jagiellonian }
+      NOT = { has_country_flag = wsf_formed }
     }
     allow = {
       BOH = {
@@ -16,6 +17,7 @@ political_decisions = {
           OR = {
             owned_by = THIS
             is_core = BRN
+            is_core = SAX
             owner = { vassal_of = THIS }
           }
         }
@@ -60,6 +62,7 @@ political_decisions = {
       remove_accepted_culture = latvian
       remove_accepted_culture = south_german
       change_tag = WSF
+      set_country_flag = wsf_formed
       any_country = {
 				limit = {
           OR = {

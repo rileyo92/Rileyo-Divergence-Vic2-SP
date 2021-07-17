@@ -266,4 +266,120 @@ political_decisions = {
 			DNG = { all_core = { add_core = THIS } }
 		}
 	}
+
+	form_onkwehonweke = {
+		potential = {
+			OR = {
+				tag = HHR
+				tag = IRO
+				tag = CHE
+				tag = ANI
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			CHE = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+			ANI = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+			IRO = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+			HHR = {
+				all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 50
+			add_accepted_culture = native_north_american
+			add_accepted_culture = vinlander
+			add_accepted_culture = afro_germanic
+			add_accepted_culture = afro_frankish
+			add_accepted_culture = afro_latino
+			add_accepted_culture = qingqiuan
+			add_accepted_culture = kaiganese
+			HHR = { all_core = { add_core = ONK } }
+			ANI = { all_core = { add_core = ONK } }
+			IRO = { all_core = { add_core = ONK } }
+			CHE = { all_core = { add_core = ONK } }
+			NUN = { all_core = { add_core = ONK } }
+			OCE = { all_core = { add_core = ONK } }
+			DIN = { all_core = { add_core = ONK } }
+			KKN = { all_core = { add_core = ONK } }
+			DNG = { all_core = { add_core = ONK } }
+			LST = { all_core = { add_core = ONK } }
+			PLA = { all_core = { add_core = ONK } }
+			NBG = { all_core = { add_core = ONK } }
+			VIN = { all_core = { add_core = ONK } }
+			ATS = { all_core = { add_core = ONK } }
+			any_country = {
+				limit = {
+					OR = {
+						tag = HHR
+						tag = ANI
+						tag = IRO
+						tag = CHE
+						tag = OCE
+						tag = NUN
+						tag = DIN
+						tag = KKN
+						tag = DNG
+						tag = VIN
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+			change_tag = ONK
+		}
+	}
 }

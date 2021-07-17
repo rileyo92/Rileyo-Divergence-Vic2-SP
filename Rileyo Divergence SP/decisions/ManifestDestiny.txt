@@ -70,7 +70,10 @@ political_decisions = {
 				tag = DNG
 				tag = KKN
 			}
-			has_country_flag = dng_manifest_destiny
+			OR = {
+				has_country_flag = dng_manifest_destiny
+				tag = KKN
+			}
 			NOT = { has_country_flag = dng_pacific }
 		}
 		allow = {

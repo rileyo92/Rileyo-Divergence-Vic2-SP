@@ -65,6 +65,7 @@ political_decisions = {
 			tag = JAP
 			NOT = { has_country_flag = high_castle }
 			NOT = { has_country_flag = coop_with_qiugqiu }
+			NOT = { has_country_flag = man_in_low_castle }
       OR = {
 				owns = 1
 				KKN = {
@@ -271,9 +272,10 @@ political_decisions = {
 	cooperation_with_qingqiu = {
 		potential = {
 			tag = JAP
-			exist = DNG
+			exists = DNG
 			NOT = { has_country_flag = high_castle }
 			NOT = { has_country_flag = coop_with_qiugqiu }
+			NOT = { has_country_flag = man_in_low_castle }
 			OR = {
 				owns = 1
 				KKN = {
@@ -289,8 +291,7 @@ political_decisions = {
 			prestige = -10
 			set_country_flag = coop_with_qiugqiu
 			KKN = { annex_to = DNG }
-			DNG = {
-				all_core = { add_core = DNG }
+			KKN = { all_core = { add_core = DNG } }
 			}
 		}
 	}

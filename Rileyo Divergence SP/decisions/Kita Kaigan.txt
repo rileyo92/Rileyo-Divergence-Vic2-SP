@@ -69,14 +69,19 @@ political_decisions = {
       set_country_flag = man_in_low_castle
       any_country = {
         limit = {
-          tag = JAP
+          OR = {
+            tag = JAP
+            tag = AIN
+          }
         }
         annex_to = THIS
       }
       change_tag = JAP
+      capital = 1649
+      1649 = { change_province_name = "Tokyo" }
     }
   }
-  
+
   kita_integrate_northern_natives = {
     potential = {
       tag = KKN

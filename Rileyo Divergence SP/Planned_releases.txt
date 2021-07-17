@@ -36,49 +36,51 @@
 #
 #(Released) 2.05 "Plantagenia" - Overhall of the Arcadian nations and the formable, add more interactions with them and their former overlords
 #
-#Release after this were on a new github page, hence the change from 2.05 to 3.0, S suffix to symbolise this being the single player version
+#Release after this were on a new github page, hence the change from 2.05 to 1.0S, S suffix to symbolise this being the single player version
 #
-#3.01S "Kita" - Move files to new Github page, add decisions for Kita Kaigan
+#(Released) 1.0S - Move files to new Github page
 #
-#3.02S "Rohnnst" - Add decisions for native american nations
+#(Released) 1.01S "Kita Kaigan" - bugfixing and implementing changes from MP version, add decisions for Kita Kaigan
 #
-#3.03S "Salvador" - Reintroduce a decisions to determine how fractured GC becomes after civil war, add decisions to all it's possible releasables
+#1.02S "Rohnnst" - Add decisions for native Arcadian nations
 #
-#3.04S "Portugal" - Add decisions for Releasables in Iberia (Portugal, Galicia, Navarra and Catalonia)
+#1.03S "Lusitania" - Have GC be fractured at start, add decisions for all GC minors
 #
-#3.05S "Single Monarchy" - Add decisions for Dual Monarchy releasables (Ireland, Wales, England, France, Brittany and Occtania ) and Scotland
+#1.04S "Portugal" - Add decisions for releasables in Iberia (Portugal, Galicia, Navarra and Catalonia)
 #
-#3.06S "Netherlands" - Add decisions for Luxembourg, Wallonia, Flanders and the Netherlands
+#1.05S "Single Monarchy" - Add decisions for Dual Monarchy releasables (Ireland, Wales, England, France, Brittany and Occtania ) and Scotland
 #
-#3.07S "Norway" - Add decisions and cores for Iceland, Norway, Denmark, Sweden, Sampi, Finland and Karelia, reintroduce Sami as a culture, maybe split up scandi cultures
+#1.06S "Netherlands" - Add decisions for Luxembourg, Wallonia, Flanders and the Netherlands
 #
-#3.08S "Baltic" - Add decisions for Lithuania, Latvia, Estonia, Prussia and Kurland
+#1.07S "Norway" - Add decisions and cores for Iceland, Norway, Denmark, Sweden, Sampi, Finland and Karelia, reintroduce Sami as a culture, maybe split up scandi cultures
 #
-#3.09S "Transylvania" - Add decisions for Transylvanian nations and Slovakia
+#1.08S "Baltic" - Add decisions for Lithuania, Latvia, Estonia, Prussia and Kurland
 #
-#3.10S "Uralia" - Add decisions for Nations releasable in Russia
+#1.09S "Transylvania" - Add decisions for Transylvanian nations and Slovakia
 #
-#3.11S "Caucasia" - Add decisions for Nations in Caucasia
+#1.10S "Uralia" - Add decisions for Nations releasable in Russia
 #
-#3.12S "Middle East" - Add decisions for Nations in Arabia
+#1.11S "Caucasia" - Add decisions for Nations in Caucasia
 #
-#3.13S "Maghreb" - Add decisions for Nations in Maghreb
+#1.12S "Middle East" - Add decisions for Nations in Arabia
 #
-#3.14S "Persia" - Add decisions for Nations in Persia
+#1.13S "Maghreb" - Add decisions for Nations in Maghreb
 #
-#3.15S "Turkmen" - Add decisions for Nations in Central Asia
+#1.14S "Persia" - Add decisions for Nations in Persia
 #
-#3.16S "Oirat" - Add decisions for Nations in Asian Steppes
+#1.15S "Turkmen" - Add decisions for Nations in Central Asia
 #
-#3.17S "India" - Add decisions for Nations in India and Ceylon
+#1.16S "Oirat" - Add decisions for Nations in Asian Steppes
 #
-#3.18S "Tungning" - Add decisions for Nations in Far East
+#1.17S "India" - Add decisions for Nations in India and Ceylon
 #
-#3.19S "Polynesia" - Add decisions for Nations in Pacific and Madagascar
+#1.18S "Tungning" - Add decisions for Nations in Far East
+#
+#1.19S "Polynesia" - Add decisions for Nations in Pacific and Madagascar
 #
 #Release after this will add additional bookmarks, hence change from 3.19 to 4.0
 #
-#4.0S "Shattered" - Add additional bookmarks revolving around different scenarios
+#2.0S "Shattered" - Add additional bookmarks revolving around different scenarios
 #
 #"tbd" - completely rework CB's, Infamy, rebalance Generals, Bugfixing and reworking Communism and Fascism, Move to new Github Page
 #

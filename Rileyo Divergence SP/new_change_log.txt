@@ -3,13 +3,17 @@
 #
 # Intital Release stemming from the 1.2 MP version
 #
-# 1.01S (WIP)
+# 1.01S "Kita Kaigan"
 #
 # Updating to be comparable to the 1.4 MP version
+# Added decisions for Kita Kaigan
+# Kita starts with Japanese accepted, Japan starts with Kaiganese accepted
+# Kita has access to Qingqiu's Pacific destiny decision
+# Bosnia starts with Croat and Serb accepted
 #
 # 1.02S (Planned)
 #
-# Added decisions for following countries: Kita Kaigan, Rohhnst, Metis, Inuit, Iroquois, Cherokee, Pubelo, Sioux
+# Added decisions for following countries: Rohhnst, Metis, Inuit, Iroquois, Cherokee, Pubelo, Sioux
 #
 # 1.03S (Planned)
 #
@@ -19,3 +23,4 @@
 # 1.04S (Planned)
 #
 # Added decisions for following countries: Guarani, Mapuche, Tupi
+#
